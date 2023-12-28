@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Advanced HTML Website</title>
+    <style>
+        header, h1, nav a, h2, h3{
+            color: black;
+        }
+    </style>
+</head>
+<body style="background-color:bisque"></body>
+    <header>
+        <h1>Music </h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/results?search_query=music">Section 1</a></li>
+                <li><a href="https://wynk.in/music">Section 2</a></li>
+                <li><a href="https://open.spotify.com/">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <article>
+            <h3>Article 1</h3>
+            <p style="color: black;">This is a video</p>
+             <figure>
+                <video width="300"
+                height="200"controls>
+                    <source src="musicandvideo/national anthem video.mp4" type="video/mp4">
+                    
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption style="color: black;">Video Caption</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <article>
+            <h3>Article 2</h3>
+            <p style="color: black;"></pstyle>This is an audio</p>
+            <figure>
+                <audio controls>
+                    <source src="musicandvideo/national anthem.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+                <figcaption style="color: black;">Audio Caption</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <article>
+            <h3>Article 3</h3>
+            <p style="color: black;">This is an article about Section 3 of my website.</p>
+            <form>
+                <label for="music", style="color: black;"> Select a music:</label>
+                <input list="fruits" id="fruit" name="fruit">
+                <datalist id="fruits">
+                    <option value="Perfect">
+                    <option value="Blank space">
+                    <option value="Lover">
+                    <option value="Doll">
+                    <option value="Thousand years">
+                </datalist>
+            </form>
+        </article>
+    </section>
+
+    <aside>
+        <h2>Aside Section</h2>
+        <p style="color: black;">This is the aside section of my website.</p>
+    </aside>
+
+    <footer>
+        <p style="color: black;">&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
